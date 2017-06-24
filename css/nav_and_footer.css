@@ -1,0 +1,230 @@
+
+body {
+  /*background-color: #050505;*/
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+/* --- NAVIGATION --- */
+/* whole nav bar */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  position: fixed;
+  z-index: 99;
+}
+
+.nav_logo {
+  width: 17%;
+}
+
+/* both ul's */
+.navigation_uls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 30%;
+  height: 50px;
+  margin-top: 2%;
+  margin-left: 5%;
+  flex: 1;
+}
+
+/* all 4 li's*/
+.navigation_li {
+  height: 50px;
+  min-width: 30%;
+  max-width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*logo/ 1st ul*/
+h1 {
+  color: #c5beb9;
+  font-size: 40px;
+}
+
+/* 1st ul - logo */
+.ul_logo {
+  padding: 20px;
+}
+
+/* 2nd ul - nav content */
+.ul_nav {
+  padding: 20px;
+}
+
+/* li's in 2nd ul/ nav content*/
+.navigation_li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(04, 04, 04, 0.4);
+}
+
+.nav_li:hover {
+  border-style: double;
+  border-width: 4px;
+  border-color: #5e5d59;
+}
+
+/* nav page link */
+.nav_li_a {
+  font-size: 3vh;
+  color: #c5beb9;
+  padding-left: 59px;
+  padding-right: 59px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.nav_li_a:hover {
+  color: white;
+}
+
+/* dropdown li's */
+
+.nav_actors {
+  height: 13px;
+  width: 32%;
+
+  background: rgba(04, 04, 04, 0.4);
+  margin-top: 17px;
+  font-size: 3vh;
+  margin-left: 4px;
+  display: inline-block;
+  padding: 24px 60px;
+  color: #c5beb9;
+
+}
+
+.nav_actors:hover {
+  border-style: double;
+  border-width: 4px;
+  border-color: #5e5d59;
+  margin-left: 2px;
+  color: white;
+}
+
+.nav_models {
+  width: 32%;
+  height: 13px;
+  background: rgba(04, 04, 04, 0.4);
+  font-size: 3vh;
+  margin-left: 4px;
+  margin-top: 4px;
+  display: inline-block;
+  padding: 24px 60px;
+  color: #c5beb9;
+}
+
+.nav_models:hover {
+  border-style: double;
+  border-width: 4px;
+  border-color: #5e5d59;
+  color: white;
+}
+
+.drop_content {
+  margin-top: 20px;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------DROPDOWN MENU---------------------*/
+
+/* ----- menu button ------ */
+.facefirst_dropdown {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 100px;
+  background: rgba(05, 05, 05, 0.7);
+  font-size: 20px;
+  font-family: 'Sorts Mill Goudy', serif;
+  border-style: none;
+  display: none;
+}
+
+.logo_dropdown {
+  width: 80px;
+  height: 80px;
+  margin:10px;
+}
+
+.menu_font {
+  margin-left: 30%;
+}
+
+/*----------menu button end ------*/
+
+.direction_dropdown {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.menu_dropdown {
+display: none;
+}
+
+.li_dropdown {
+  background: rgba(05, 05, 05, 0.6);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+
+
+
+
+/* --- FOOTER --- */
+footer {
+  width: 100%;
+  height: 76px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  box-shadow: 0 -10px 25px -15px grey;
+}
+
+.footercontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(04, 04, 04, 0.4);
+}
+
+.footerlogo {
+  display:flex;
+  align-self: center;
+  width: auto;
+  padding: 10px;
+  float: left;
+  height: 40px;
+}
+
+.gmbh {
+  margin: 2%;
+  font-size: 18px;
+  color: #353231;
+}

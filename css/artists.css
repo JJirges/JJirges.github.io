@@ -1,0 +1,836 @@
+/* Slideshow */
+
+.slider {
+  margin-top: 0;
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* Slideshow end */
+
+
+
+/* ACTORS */
+
+h2 {
+  font-size: 35px;
+  color: #b29f5f;
+  margin: 10px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+
+.categories {
+  width: 96%;
+  height: 80px;
+  background-color: white;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #b29f5f;
+  margin: 2%;
+}
+
+.categories_line {
+  width: 59%;
+  height: 1px;
+  margin-left: 21%;
+  margin-right: 21%;
+  border-color: #b29f5f;
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.category_box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.categories_gender {
+  align-self: center;
+  margin: 1% 5% 3% 5%;
+  font-size: 20px;
+  color: #b29f5f;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 29px;
+  color: #c2b0a3;
+}
+
+.lorem {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 4% 21% 4% 21%;
+  font-size: 18px;
+  line-height: normal;
+}
+
+/* layout of all actor/actress profiles on the site */
+.actors {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+
+
+.actors > li {
+  box-sizing: border-box;
+  margin: 1.5%;
+  padding: 0 6px;
+}
+
+.actors img {
+  box-shadow: 0 5px 20px grey;
+  border-radius: 2px;
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  font-size: 16px;
+  color: black;
+}
+
+
+/* ------------- responsive -------------- */
+
+@media screen and (max-width: 1367px) {
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 35px;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+}
+
+
+
+
+
+/* iPad pro */
+@media screen and (max-width: 1024px) {
+
+  h1 {
+    font-size: 25px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 20px;
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .categories {
+    height: 90px;
+  }
+
+    .categories_gender {
+      font-size: 28px;
+    }
+
+.lorem {
+  margin-top: 2%;
+}
+
+  .actors {
+  margin-left: 19%;
+  }
+
+  .actors li {
+    margin-top: 2%;
+    margin-bottom: 12%;
+  }
+
+  .actors li div {
+    font-size: 15px;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+/*iPad*/
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 25px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 55px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .categories {
+    height: 90px;
+  }
+
+  .categories_gender {
+    font-size: 25px;
+  }
+
+  .actors {
+  margin-left: 23%;
+  }
+
+  .actors li {
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+
+  .actors li div {
+    width: 170px;
+    margin-left: 4%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 736px) {
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 70px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .categories {
+    height: 90px;
+  }
+
+  .categories_gender {
+    font-size: 25px;
+  }
+
+  .actors {
+  margin-left: 20%;
+  }
+
+  .actors li {
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+
+  .actors li div {
+    width: 170px;
+    margin-left: 4%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 732px) {
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 70px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .categories {
+    height: 90px;
+  }
+
+  .categories_gender {
+    font-size: 25px;
+  }
+
+  .actors {
+  margin-left: 20%;
+  }
+
+  .actors li {
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+
+  .actors li div {
+    width: 170px;
+    margin-left: 4%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 73.5px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .categories {
+    height: 70px;
+  }
+
+  .categories_gender {
+    font-size: 15px;
+  }
+
+  .category_box {
+    padding: 2%;
+  }
+
+  .categories_line {
+    margin-top: 13%;
+  }
+
+  .actors {
+    margin-left: 18%;
+  }
+
+  .actors li {
+    margin-top: 2%;
+    margin-bottom: 12%;
+  }
+
+  .actors li div {
+    width: 170px;
+
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+}
+
+@media screen and (max-width: 568px) {
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 73.5px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .categories {
+    height: 70px;
+  }
+
+  .categories_gender {
+    font-size: 15px;
+  }
+
+  .category_box {
+    padding: 2%;
+  }
+
+  .categories_line {
+    margin-top: 13%;
+  }
+
+  .actors img {
+    margin-left: 9%;
+  }
+
+  .actors li {
+    margin-top: 2%;
+    margin-bottom: 12%;
+  }
+
+  .actors li div {
+    width: 170px;
+    margin-left: 15%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+}
+
+/*iPhone 6Plus*/
+@media screen and (max-width: 415px) {
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .categories {
+    height: 70px;
+  }
+
+  .categories_gender {
+    font-size: 18px;
+  }
+
+  .category_box {
+    padding: 2%;
+  }
+
+  .categories_line {
+    margin-top: 13%;
+  }
+
+  .actors img {
+    margin-left: 9%;
+  }
+
+  .actors li {
+    margin-top: 2%;
+    margin-bottom: 12%;
+  }
+
+  .actors li div {
+    width: 170px;
+    margin-left: 15%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+
+/* nexus 5x*/
+/* nexus 6p*/
+@media screen and (max-width: 412px) {
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .categories {
+    height: 70px;
+  }
+
+  .categories_gender {
+    font-size: 18px;
+  }
+
+  .category_box {
+    padding: 2%;
+  }
+
+  .categories_line {
+    margin-top: 13%;
+  }
+
+  .actors img {
+    margin-left: 9%;
+  }
+
+  .actors li {
+    margin-top: 2%;
+    margin-bottom: 12%;
+  }
+
+  .actors li div {
+    width: 170px;
+    margin-left: 15%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+/*iPhone 6 */
+@media screen and (max-width: 376px) {
+
+    nav {
+      display: none;
+    }
+
+    .facefirst_dropdown {
+      display: inherit;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    .categories {
+      height: 50px;
+    }
+
+    .category_box {
+      padding-top: 5%;
+    }
+
+    .categories_gender {
+      font-size: 18px;
+    }
+
+    .lorem {
+      margin-top: 10%;
+    }
+
+    .actors {
+      margin-left: 18%;
+    }
+
+    footer {
+      margin-top: 7.2%;
+    }
+
+    .footercontent {
+        padding: 8%;
+    }
+    .gmbh {
+      font-size: 11px;
+      display: flex;
+      justify-content: center;
+      align-self: center;
+    }
+}
+
+/* galaxy s5 */
+@media screen and (max-width: 360px) {
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .categories {
+    height: 50px;
+  }
+
+  .category_box {
+    padding-top: 5%;
+  }
+
+  .categories_gender {
+    font-size: 18px;
+  }
+
+  .lorem {
+    margin-top: 10%;
+  }
+
+  .actors {
+    margin-left: 18%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+
+/*iPhone 5*/
+@media screen and (max-width: 320px) {
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  .categories {
+    height: 40px;
+  }
+
+  .category_box {
+    padding: 5%;
+  }
+
+  .categories_gender {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .actors {
+    margin-left: 7%;
+  }
+
+  .actors img {
+    margin-left: 21%;
+  }
+
+  .actors li div {
+    width: 200px;
+    margin-left: 15%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}

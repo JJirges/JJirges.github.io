@@ -1,0 +1,1936 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+
+
+/* ---------- HERO IMG - BACKGROUND -------------- */
+
+body {
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  max-height: 100vh;
+    font-family: 'Sorts Mill Goudy', serif;
+    }
+
+/* --------- HERO IMG - END ------------------ */
+
+/* --------- MAIN CONTENT ----------- */
+
+
+
+/* quote div*/
+.quote {
+  float: left;
+  font-weight: lighter;
+  font-variant: small-caps;
+  line-height: 70px;
+  margin-top: 13%;
+  margin-left: 11%;
+  color: #b29f5f;
+  clear: both;
+}
+
+/*quote*/
+h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 35px;
+}
+
+/* actor */
+h3 {
+  margin-top: 6%;
+  margin-bottom: 18%;
+  margin-left: 17%;
+  font-size: 25px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+.responsive_quote {
+  display: none;
+}
+
+/* ----- ABOUT INFORMATION ----- */
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  font-size: 30px;
+  color: #c2b0a3;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+
+/* ABOUT US */
+
+.categories {
+  width: 96%;
+  height: 100px;
+  background-color: white;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #b6b397;
+  margin: 1% 2% 3% 2%;
+}
+
+.categories_about {
+  color: #c5beb9;
+  font-size: 18px;
+
+}
+
+.category_box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category_box a {
+  margin: 1% 10%;
+}
+
+/* our team */
+
+
+.facefirst {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.facefirst_content {
+  width: 49%;
+  margin-right: auto;
+}
+
+
+/* management */
+
+h5 {
+  display: flex;
+  margin-bottom: 5px;
+  margin-left: 14%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dramaqueenh3 {
+  display: none;
+}
+
+/* img + border */
+
+.imagelayout {
+  width: 18.5%;
+  margin: 3%;
+}
+
+.imagelayout img {
+    width: 100%;
+    height: auto;
+
+}
+
+ /* description */
+.desc {
+    padding: 5%;
+    font-size: 17px;
+    color: black;
+    width: 120%;
+    margin-left: -3px;
+    margin-top: -2%;
+    }
+
+.photo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 12%;
+  margin-bottom: 6%;
+}
+
+/* cast and booking */
+.castandb {
+  display: flex;
+
+  flex-direction: row;
+  margin-left: 12%;
+}
+
+.photos_camera {
+  display: flex;
+
+  flex-direction: row;
+  margin-left: 12%;
+  margin-bottom: 6%;
+}
+
+/* building */
+
+.imgbuilding {
+  margin: 0 5% 5% 5%;
+}
+
+.building {
+  margin-top: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.p_building {
+  margin: 5%;
+  font-size: 20px;
+  line-height: normal;
+}
+
+/* ---- LOCATION ---- */
+
+.hr_h6 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.h6_hr_left {
+  color: #c2b0a3;
+  width: 380px;
+  height: 0.5px;
+  margin-left: 16%;
+}
+
+.h6_hr_right {
+  color: #c2b0a3;
+  width: 380px;
+  height: 0.5px;
+  margin-right: 15%;
+}
+
+h6 {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  color: #c2b0a3;
+}
+
+
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+
+.location_p {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.location p {
+  margin-left: 20%;
+  margin-top: 5.5%;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.location img {
+  margin-left: 10%;
+  margin-top: 1%;
+  box-shadow: 0 5px 20px grey;
+}
+
+.studio_p {
+  width: 71%;
+  margin-top: 4%;
+  margin-left: 16%;
+  margin-right: 16%;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.last_p {
+  margin-bottom: 6%;
+}
+
+/* ------------- GALLERY AND OVERLAY ----------------- */
+.tn_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 0;
+  margin-left: 15%;
+  box-sizing: border-box;
+}
+  .tn_list > li {
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 2%;
+  }
+    .tn_list > li:first-child {
+      padding-left: 0;
+    }
+    .tn_list > li:last-child {
+      padding-right: 0;
+    }
+    .tn_list > li img {
+      width: 180px;
+      height: 120px;
+      max-width: 90%;
+      max-height: 90%;
+      box-shadow: 0 5px 20px grey;
+    }
+    .overlay_content {
+      display: none;
+    }
+
+
+
+.overlay__cnt {
+position: fixed;
+width: 100vw;
+height: 100vh;
+top: 0;
+left: 0;
+display: flex;
+background-color: rgba(0,0,0,0.6);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+opacity: 0;
+transition: ease-in-out opacity 1s;
+z-index: 100;
+}
+.overlay__cnt--fadein {
+  opacity: 1;
+}
+
+.overlay__close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 3;
+}
+  .overlay__close:hover {
+    background-color: #ccc;
+  }
+
+
+/*
+Geändertes CSS weil wir noch einen Wrapper brauchen für die Animation
+.overlay__stage {
+  width: 100%;
+  height: calc(100% - 60px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay__stage img {
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0px 0px 24px rgba(0,0,0,0.5);
+}*/
+
+.overlay__stage {
+  width: 100%;
+  height: calc(100% - 60px);
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+}
+  .stage__item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    .stage__item img {
+      max-width: 90%;
+      max-height: calc(90% - 20px);
+      box-shadow: 0px 0px 24px rgba(0,0,0,0.5);
+    }
+    .stage__item p {
+      height: 20px;
+      line-height: 20px;
+    }
+/*
+  Ende CSS Änderungen
+*/
+
+.overlay__nav {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+  .overlay__nav .tn_list {
+    padding: 0 12px;
+    height: 34px;
+    position: relative;
+    display: block;
+    width: auto;
+    text-align: center;
+  }
+    .overlay__nav .tn_list li {
+      display: inline-block;
+    }
+      .overlay__nav .tn_list img {
+        box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+        height: 34px;
+        width: auto;
+      }
+        .overlay__nav .tn_list img:hover {
+          box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+          outline: 1px solid #aaa;
+        }
+        .overlay__nav li.selected img {
+          outline: 1px solid white;
+        }
+  .overlay__prev, .overlay__next {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+    .overlay__prev:hover, .overlay__next:hover {
+      font-weight: bold;
+    }
+
+
+
+
+/* -------------------- responsive ----------------------- */
+
+
+@media screen and (max-width: 1367px) {
+body {
+  background-image: url(../images/background_ipad.png);
+}
+
+h1 {
+  font-size: 20px;
+  width: 140px;
+  line-height: 30px;
+}
+
+.navigation_li {
+  height: 40px;
+}
+
+.nav_li a {
+  font-size: 35px;
+}
+
+h2 {
+  margin-top: 20%;
+  margin-left: -15%;
+  font-size: 40px;
+  line-height: 100px;
+  color: #6a5648;
+  font-weight: bold;
+}
+
+h3 {
+  color: #6a5648;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10%;
+}
+
+h4 {
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+.facefirst_content {
+  margin-bottom: 10%;
+}
+
+.h6_hr_left {
+  width: 180px;
+    margin-top: 10%;
+}
+.h6_hr_right {
+  width: 180px;
+    margin-top: 10%;
+}
+
+h6 {
+  margin-top: 10%;
+}
+
+.location {
+  margin-bottom: -5%;
+}
+
+footer {
+  margin-top: 7.2%;
+}
+
+.footercontent {
+    padding: 8%;
+}
+.gmbh {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+}
+
+/* iPad pro */
+@media screen and (max-width: 1024px) {
+body {
+  background-image: url(../images/background_ipad.png);
+}
+
+h1 {
+  font-size: 25px;
+  width: 140px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+.navigation_li {
+  height: 40px;
+}
+
+.nav_li a {
+  font-size: 35px;
+}
+
+h2 {
+  margin-top: 70%;
+  margin-left: -25%;
+  font-size: 60px;
+  line-height: 100px;
+  color: #6a5648;
+  font-weight: bold;
+}
+
+h3 {
+  color: #6a5648;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+h4 {
+  font-size: 50px;
+  margin-top: -7%;
+}
+
+.facefirst_content {
+  margin-bottom: 10%;
+}
+
+.h6_hr_left {
+  width: 180px;
+    margin-top: 10%;
+}
+.h6_hr_right {
+  width: 180px;
+    margin-top: 10%;
+}
+
+h6 {
+  margin-top: 10%;
+}
+
+.location {
+  margin-bottom: -5%;
+}
+
+footer {
+  margin-top: 7.2%;
+}
+
+.footercontent {
+    padding: 8%;
+}
+.gmbh {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+}
+
+/*iPad*/
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(../images/background_ipad.png);
+  }
+
+  h1 {
+    font-size: 25px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 55px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 25px;
+  }
+
+  h2 {
+    margin-top: 60%;
+    margin-left: -11%;
+    font-size: 40px;
+    line-height: 70px;
+    color: #6a5648;
+    font-weight: bold;
+  }
+
+  h3 {
+    color: #6a5648;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-left: 25%;
+  }
+
+  h4 {
+    font-size: 50px;
+    margin-top: 13%;
+  }
+
+  .facefirst {
+    flex-direction: column;
+  }
+
+  .dramaqueenh5 {
+    justify-content: center;
+    margin-left: -3%;
+  }
+
+  .facefirst_content {
+    width: 100%;
+  }
+
+  .h6_hr_left {
+    width: 180px;
+      margin-top: -4%;
+  }
+  .h6_hr_right {
+    width: 180px;
+      margin-top: -4%;
+  }
+
+  h6 {
+    margin-top: -5%;
+  }
+
+  .location {
+    margin-bottom: -5%;
+    flex-direction: column;
+  }
+
+  .location img {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+  }
+
+  .location_p {
+    width: 100%;
+    margin-left: -10%;
+  }
+
+  .tn_list {
+    margin-left: 16.4%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  body {
+    background-image: url(../images/background_ipad.png);
+  }
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 70px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 20px;
+  }
+
+  h2 {
+    margin-top: 20%;
+    margin-left: -11%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #6a5648;
+    font-weight: bold;
+  }
+
+  h3 {
+    color: #6a5648;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 35%;
+  }
+
+  h4 {
+    font-size: 45px;
+    margin-top: 0;
+  }
+
+  .facefirst {
+    flex-direction: column;
+  }
+
+  .dramaqueenh5 {
+    justify-content: center;
+    margin-left: -3%;
+  }
+
+  .facefirst_content {
+    width: 100%;
+  }
+
+  .h6_hr_left {
+    width: 80px;
+      margin-top: -4%;
+  }
+  .h6_hr_right {
+    width: 80px;
+      margin-top: -4%;
+  }
+
+  h6 {
+    margin-top: -5%;
+  }
+
+  .location {
+    margin-bottom: -5%;
+    flex-direction: column;
+  }
+
+  .location img {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+  }
+
+  .location_p {
+    width: 100%;
+    margin-left: -10%;
+  }
+
+  .tn_list {
+    margin-left: 16.4%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  body {
+    background-image: url(../images/background_ipad.png);
+  }
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 70px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 20px;
+  }
+
+  h2 {
+    margin-top: 20%;
+    margin-left: -11%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #6a5648;
+    font-weight: bold;
+  }
+
+  h3 {
+    color: #6a5648;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 35%;
+  }
+
+  h4 {
+    font-size: 50px;
+    margin-top: -7%;
+  }
+
+  .facefirst {
+    flex-direction: column;
+  }
+
+  .dramaqueenh5 {
+    justify-content: center;
+    margin-left: -3%;
+  }
+
+  .facefirst_content {
+    width: 100%;
+  }
+
+  .h6_hr_left {
+    width: 80px;
+      margin-top: -4%;
+  }
+  .h6_hr_right {
+    width: 80px;
+      margin-top: -4%;
+  }
+
+  h6 {
+    margin-top: -5%;
+  }
+
+  .location {
+    margin-bottom: -5%;
+    flex-direction: column;
+  }
+
+  .location img {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+  }
+
+  .location_p {
+    width: 100%;
+    margin-left: -10%;
+  }
+
+  .tn_list {
+    margin-left: 16.4%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+}
+
+
+@media screen and (max-width: 640px) {
+  body {
+    background-image: url(../images/background_ipad.png);
+  }
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 70px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 20px;
+  }
+
+  h2 {
+    margin-top: 20%;
+    margin-left: -11%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #6a5648;
+    font-weight: bold;
+  }
+
+  h3 {
+    color: #6a5648;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+  }
+
+  h4 {
+    font-size: 50px;
+    margin-top: -7%;
+  }
+
+  .facefirst {
+    flex-direction: column;
+  }
+
+  .dramaqueenh5 {
+    justify-content: center;
+    margin-left: -3%;
+  }
+
+  .facefirst_content {
+    width: 100%;
+  }
+
+  .h6_hr_left {
+    width: 80px;
+      margin-top: -4%;
+  }
+  .h6_hr_right {
+    width: 80px;
+      margin-top: -4%;
+  }
+
+  h6 {
+    margin-top: -5%;
+  }
+
+  .location {
+    margin-bottom: -5%;
+    flex-direction: column;
+  }
+
+  .location img {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+  }
+
+  .location_p {
+    width: 100%;
+    margin-left: -10%;
+  }
+
+  .tn_list {
+    margin-left: 16.4%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+}
+
+@media screen and (max-width: 568px) {
+  body {
+    background-image: url(../images/background_ipad.png);
+  }
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 73.5px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 18px;
+  }
+
+  h2 {
+    margin-top: 20%;
+    margin-left: -11%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #6a5648;
+    font-weight: bold;
+  }
+
+  h3 {
+    color: #6a5648;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+  }
+
+  h4 {
+    font-size: 30px;
+    margin-top: -7%;
+  }
+
+  .facefirst {
+    flex-direction: column;
+  }
+
+  .dramaqueenh5 {
+    justify-content: center;
+    margin-left: -3%;
+  }
+
+  .facefirst_content {
+    width: 100%;
+  }
+
+  .h6_hr_left {
+    width: 80px;
+      margin-top: -4%;
+  }
+  .h6_hr_right {
+    width: 80px;
+      margin-top: -4%;
+  }
+
+  h6 {
+    margin-top: -5%;
+  }
+
+  .location {
+    margin-bottom: -5%;
+    flex-direction: column;
+  }
+
+  .location img {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+  }
+
+  .location_p {
+    width: 100%;
+    margin-left: -10%;
+  }
+
+  .tn_list {
+    margin-left: 16.4%;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+}
+
+/* iPhone 6Plus*/
+@media screen and (max-width: 415px) {
+  body {
+    background-image: url(../images/responsive_background.png);
+
+  }
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  .h2 {
+    display: none;
+  }
+
+  .h3 {
+    display: none;
+  }
+
+  .responsive_quote {
+    display: inline-block;
+    margin-top: 30%;
+    margin-left: 20px;
+    margin-bottom: 51%;
+    font-size: 35px;
+    line-height: 50px;
+    color: #c2b0a3;
+  }
+
+  .steve {
+    color: #6a5648;
+  }
+
+  h4 {
+    font-size: 35px;
+    margin-top: -10%;
+    margin-left: 60px;
+  }
+
+  .categories {
+    margin-top: 20px;
+  }
+
+  .category_box {
+    margin-top: 20px;
+  }
+
+  .categories_about {
+    padding: 10px;
+  }
+
+.facefirst {
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.facefirst_content{
+  width: 90%;
+}
+
+.photo img {
+  width: 190px;
+}
+
+.photos_camera {
+  flex-direction: column;
+}
+
+.photos_camera img {
+  width: 190px;
+}
+
+.castandb {
+  flex-direction: column;
+}
+
+.castandb img {
+  width: 190px;
+}
+
+  .desc {
+    width: 160px;
+    margin-left: 20px;
+
+  }
+
+  .h6_hr_left {
+    display: none;
+  }
+
+  .h6_hr_right {
+    display: none;
+  }
+
+  h6 {
+    margin-left: 75px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+  }
+
+  .location {
+    flex-direction: column;
+  }
+
+  .location_p {
+    width: 250px;
+    margin-left: -31px;
+  }
+
+  .location img {
+    width: 190px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  .tn_list {
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 80px;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+}
+
+/* nexus 5x*/
+/* nexus 6p - funktioniert nicht optimal */
+@media screen and (max-width: 412px) {
+  body {
+    background-image: url(../images/responsive_background.png);
+  }
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  .h2 {
+    display: none;
+  }
+
+  .h3 {
+    display: none;
+  }
+
+  .responsive_quote {
+    display: inline-block;
+    margin-top: 30%;
+    margin-left: 20px;
+    margin-bottom: 51%;
+    font-size: 35px;
+    line-height: 50px;
+    color: #c2b0a3;
+  }
+
+  .steve {
+    color: #6a5648;
+  }
+
+  h4 {
+    font-size: 35px;
+    margin-top: -20%;
+    margin-left: 70px;
+  }
+
+  .categories {
+    margin-top: 20px;
+  }
+
+  .category_box {
+    margin-top: 20px;
+  }
+
+  .categories_about {
+    padding: 10px;
+  }
+
+  .cast_and_booking_h5 {
+    margin-left: 27%;
+  }
+  .management_h5 {
+    margin-left: 30%;
+  }
+  .dramaqueenh5 {
+    margin-top: 5%;
+  }
+  .photos_h5 {
+    margin-left: 25%;
+  }
+
+.facefirst {
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.facefirst_content{
+  width: 90%;
+  margin-left: 3%;
+}
+
+.photo img {
+  width: 190px;
+}
+
+.photos_camera {
+  flex-direction: column;
+}
+
+.photos_camera img {
+  width: 190px;
+}
+
+.castandb {
+  flex-direction: column;
+}
+
+.castandb img {
+  width: 190px;
+}
+
+  .desc {
+    width: 160px;
+    margin-left: 20px;
+
+  }
+
+  .h6_hr_left {
+    display: none;
+  }
+
+  .h6_hr_right {
+    display: none;
+  }
+
+  h6 {
+    margin-left: 100px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+  }
+
+  .location {
+    flex-direction: column;
+    margin-left: 10%;
+  }
+
+  .location_p {
+    width: 320px;
+  }
+
+  .location img {
+    width: 190px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-left: 15%;
+  }
+
+  .tn_list {
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 80px;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+}
+/*iPhone 6*/
+@media screen and (max-width: 376px) {
+  body {
+    background-image: url(../images/responsive_background.png);
+
+  }
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  .h2 {
+    display: none;
+  }
+
+  .h3 {
+    display: none;
+  }
+
+  .responsive_quote {
+    display: inline-block;
+    margin-top: 30%;
+    margin-left: 20px;
+    margin-bottom: 51%;
+    font-size: 35px;
+    line-height: 50px;
+    color: #c2b0a3;
+  }
+
+  .steve {
+    color: #6a5648;
+  }
+
+  h4 {
+    font-size: 35px;
+    margin-left: 30px;
+  }
+
+  .categories {
+    margin-top: 20px;
+  }
+
+  .category_box {
+    margin-top: 20px;
+  }
+
+  .categories_about {
+    padding: 10px;
+  }
+
+  .cast_and_booking_h5 {
+    margin-left: 27%;
+  }
+  .management_h5 {
+    margin-left: 30%;
+  }
+  .dramaqueenh5 {
+    margin-top: 5%;
+  }
+  .photos_h5 {
+    margin-left: 25%;
+  }
+
+.facefirst {
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.facefirst_content{
+  width: 90%;
+}
+
+.photo img {
+  width: 190px;
+}
+
+.photos_camera {
+  flex-direction: column;
+}
+
+.photos_camera img {
+  width: 190px;
+}
+
+.castandb {
+  flex-direction: column;
+}
+
+.castandb img {
+  width: 190px;
+}
+
+  .desc {
+    width: 160px;
+    margin-left: 20px;
+
+  }
+
+  .h6_hr_left {
+    display: none;
+  }
+
+  .h6_hr_right {
+    display: none;
+  }
+
+  h6 {
+    margin-left: 75px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+  }
+
+  .location {
+    flex-direction: column;
+  }
+
+  .location_p {
+    width: 250px;
+    margin-left: -31px;
+  }
+
+  .location img {
+    width: 190px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  .tn_list {
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 80px;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+}
+
+/* galaxy s5 */
+@media screen and (max-width: 360px) {
+  body {
+    background-image: url(../images/responsive_background.png);
+
+  }
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  .h2 {
+    display: none;
+  }
+
+  .h3 {
+    display: none;
+  }
+
+  .responsive_quote {
+    display: inline-block;
+    margin-top: 30%;
+    margin-left: 20px;
+    margin-bottom: 51%;
+    font-size: 35px;
+    line-height: 50px;
+    color: #c2b0a3;
+  }
+
+  .steve {
+    color: #6a5648;
+  }
+
+  h4 {
+    font-size: 35px;
+    margin-top: -20%;
+    margin-left: 30px;
+  }
+
+  .categories {
+    margin-top: 20px;
+  }
+
+  .category_box {
+    margin-top: 20px;
+  }
+
+  .categories_about {
+    padding: 10px;
+  }
+
+  .cast_and_booking_h5 {
+    margin-left: 27%;
+  }
+  .management_h5 {
+    margin-left: 30%;
+  }
+  .dramaqueenh5 {
+    margin-top: 5%;
+  }
+  .photos_h5 {
+    margin-left: 25%;
+  }
+
+.facefirst {
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.facefirst_content{
+  width: 90%;
+  margin-left: 3%;
+}
+
+.photo img {
+  width: 190px;
+}
+
+.photos_camera {
+  flex-direction: column;
+}
+
+.photos_camera img {
+  width: 190px;
+}
+
+.castandb {
+  flex-direction: column;
+}
+
+.castandb img {
+  width: 190px;
+}
+
+  .desc {
+    width: 160px;
+    margin-left: 20px;
+
+  }
+
+  .h6_hr_left {
+    display: none;
+  }
+
+  .h6_hr_right {
+    display: none;
+  }
+
+  h6 {
+    margin-left: 100px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+  }
+
+  .location {
+    flex-direction: column;
+    margin-left: 10%;
+  }
+
+  .location_p {
+    width: 290px;
+  }
+
+  .location img {
+    width: 190px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-left: 15%;
+  }
+
+  .tn_list {
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 80px;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+}
+/*iPhone 5*/
+@media screen and (max-width: 320px) {
+  body {
+    background-image: url(../images/responsive_background.png);
+
+  }
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  .h2 {
+    display: none;
+  }
+
+  .h3 {
+    display: none;
+  }
+
+  .responsive_quote {
+    display: inline-block;
+    margin-top: 30%;
+    margin-left: 20px;
+    margin-bottom: 51%;
+    font-size: 35px;
+    line-height: 50px;
+    color: #c2b0a3;
+  }
+
+  .steve {
+    color: #6a5648;
+  }
+
+  h4 {
+    font-size: 35px;
+    margin-top: -30%;
+    margin-left: 30px;
+  }
+
+  .categories {
+    margin-top: 20px;
+  }
+
+  .category_box {
+    margin-top: 20px;
+  }
+
+  .categories_about {
+    padding: 10px;
+  }
+
+.management_h5 {
+  margin-left: 30%;
+}
+
+.facefirst {
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.facefirst_content{
+  width: 90%;
+}
+
+.photo img {
+  width: 190px;
+}
+
+.photos_h5 {
+  margin-left: 25%;
+}
+
+.photos_camera {
+  flex-direction: column;
+}
+
+.photos_camera img {
+  width: 190px;
+}
+
+.cast_and_booking_h5 {
+  margin-left: 27%;
+}
+
+
+.castandb {
+  flex-direction: column;
+}
+
+.castandb img {
+  width: 190px;
+}
+
+.dramaqueenh5 {
+  margin-top: 5%;
+}
+
+.building {
+  margin-left: 25%;
+}
+
+  .desc {
+    width: 160px;
+    margin-left: 20px;
+
+  }
+
+  .h6_hr_left {
+    display: none;
+  }
+
+  .h6_hr_right {
+    display: none;
+  }
+
+  h6 {
+    margin-left: 75px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+  }
+
+  .location {
+    flex-direction: column;
+  }
+
+  .location_p {
+    width: 250px;
+    margin-left: -31px;
+  }
+
+  .location img {
+    width: 190px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  .tn_list {
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 80px;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+
+}

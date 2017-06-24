@@ -1,0 +1,1704 @@
+.heroimg {
+  width: 100%;
+}
+
+
+/* MAIN CONTENT */
+
+
+.dramaqueencontact {
+
+  padding: 15px;
+
+/*  border-style: double;
+  border-width: 6px;
+  border-color: #b6b397;*/
+  color: black;
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+}
+
+/*#borderimg {
+  border: 10px solid transparent;
+  -webkit-border-image: url(border.png) 30 stretch;
+  -o-border-image: url(border.png) 30 stretch;
+  border-image: url(border.png) 30 stretch;
+}*/
+
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: normal;
+}
+
+
+.hr {
+  width: 60%;
+  margin-left: 20%;
+  color: #b29f5f;
+}
+
+.requests {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+h3 {
+
+  font-size: 18px;
+  justify-content: center;
+  margin: 30px;
+  font-weight: bold;
+}
+
+
+/* -------------------------------------------------------*/
+
+/* DIRECTORS */
+
+/* formular for directors who are looking for artists */
+.directors {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  /*border: 3px #d5a940 solid;*/
+}
+
+/* searching for actor/model - form */
+.searching {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 400px;
+  margin: 5%;
+}
+
+/* ACTORS/ACTRESSES*/
+/*dropdownbutton actors*/
+.actorrequest {
+  background-color: white;
+  font-size: 17px;
+/*  box-shadow: 0 0 30px 5px #d5a940; */
+height: 50px;
+width: 190px;
+/*color: #b29f5f;*/
+/*border-color: #b29f5f;*/
+border-width: 3px;
+border-style: double;
+
+box-shadow: 0 0 10px grey;
+cursor: pointer;
+}
+
+.actorrequest:hover {
+  background-color: #c5beb9;
+  border-color: #5e5d59;
+}
+
+.modelrequest:hover {
+  background-color: #c5beb9;
+  border-color: #5e5d59;
+}
+
+.joinrequest:hover {
+  background-color: #c5beb9;
+  border-color: #5e5d59;
+}
+
+
+
+/* MODELS */
+/*dropdownbutton models*/
+.modelrequest {
+  background-color: white;
+  font-size: 17px;
+/*  box-shadow: 0 0 30px 5px #d5a940; */
+  height: 50px;
+  width: 190px;
+  /*color: #b29f5f;
+  border-color: #b29f5f;*/
+  border-width: 3px;
+  border-style: double;
+
+  box-shadow: 0 0 10px grey;
+  cursor: pointer;
+  }
+
+
+/* -------------------------------------------------------------- */
+
+/* ARTISTS*/
+
+.customer {
+  margin: 35px;
+}
+
+h4 {
+  font-size: 2.5vh;
+  margin: 10px 10px 10px 0;
+}
+
+button {
+  font-family: 'Gentium Book Basic', serif;
+}
+
+/* formular for artists who want to join 'DRAMA QUEEN AGENCY' */
+.artists {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  /*border: 3px #d5a940 solid;*/
+}
+
+/* dropdown button */
+.joinrequest {
+  background-color: white;
+  font-size: 17px;
+  /*background-color: #dcd0b3;
+/*  box-shadow: 0 0 30px 5px #d5a940; */
+  height: 50px;
+  width: 200px;
+  /*color: #b29f5f;
+  border-color: #b29f5f;*/
+  border-width: 3px;
+  border-style: double;
+  box-shadow: 0 0 10px grey;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* FORMULAR ARTIST */
+form {
+  margin-top: 2%;
+  color: white;
+  background-color: #c5beb9;
+  width: 800px;
+  padding: 5%;
+  border-top-color: #5e5d59;
+  border-top-style: double;
+  border-top-width: 4px;
+  border-left-color: #5e5d59;
+  border-left-style: double;
+  border-left-width: 4px;
+  border-right-color: #5e5d59;
+  border-right-style: double;
+  border-right-width: 4px;
+  border-bottom-color: #5e5d59;
+  border-bottom-style: double;
+  border-bottom-width: 4px;
+  font-family: 'Gentium Book Basic', serif;
+  display: none;
+}
+
+.error {
+  color: red;
+}
+
+.personaldata {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+hr {
+  border-color: #5e5d59;
+}
+
+.customer {
+  margin: 45px;
+}
+
+.name {
+  width: 300px;
+}
+
+.phonenumber {
+  width: 200px;
+}
+
+.email {
+  width: 300px;
+}
+
+.website {
+  width: 300px;
+}
+
+
+
+.gender_h4 {
+  margin-top: -2px;
+}
+
+.genderform {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.city {
+  width: 300px;
+}
+
+.street {
+  width: 300px;
+}
+
+.postalcode {
+  width: 100px;
+}
+
+.joinas_h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.joinas_answer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.special_content {
+  margin: 20px 50px 20px 50px;
+}
+
+.experience_h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.experience_answer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.diploma {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 64px;
+}
+
+.input {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+/* AGB checkbox */
+.checkboxagb {
+  display: flex;
+  justify-content: center;
+}
+/* AGB link */
+.agb {
+  color: #b29f5f;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit_button {
+  font-size: 2.3vh;
+  color: #5e5d59;
+  font-weight: bold;
+  width: 130px;
+  height: 50px;
+  background-color: white;
+  border-style: double;
+  border-color: #5e5d59;
+  border-radius: 3px;
+  border-width: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+
+
+/*-------------- RESPONSIVE --------------*/
+
+@media screen and (max-width: 1367px) {
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 35px;
+  }
+
+  .submit_button {
+    font-size: 15px;
+  }
+
+  footer {
+    margin-top: 7.2%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+/*iPad pro*/
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 25px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 20px;
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 35px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .submit_button {
+    font-size: 15px;
+  }
+
+  .personaldata {
+    flex-direction: column;
+  }
+
+  .customer {
+    width: 90%;
+    margin-left: 9%;
+  }
+
+  .name {
+    width: 90%;
+    height: 20px;
+  }
+
+  .lastname {
+    width: 90%;
+    height: 20px;
+  }
+
+  .email {
+    width: 90%;
+    height: 20px;
+  }
+
+  .website {
+    width: 90%;
+    height: 20px;
+  }
+
+  .phonenumber {
+    width: 90%;
+    height: 20px;
+  }
+
+  .city {
+    width: 90%;
+    height: 20px;
+  }
+
+  .street {
+    width: 90%;
+    height: 20px;
+  }
+
+  .uploadfile {
+    margin-left: 32%;
+  }
+
+  footer {
+    margin-top: 25%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+/*iPad*/
+@media screen and (max-width: 786px) {
+  h1 {
+    font-size: 25px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 55px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 25px;
+  }
+
+  .heroimg {
+    width: 113%;
+  }
+
+  .dramaqueencontact {
+    margin-left: 12%;
+  }
+
+  .hr {
+    margin-left: 6%;
+    width: 100%;
+  }
+
+  .directors {
+    width: 90%;
+    margin-left: 15%;
+  }
+
+  .searching {
+    width: 65%;
+    margin-top: 5%;
+    flex-direction: column;
+    margin-left: 42%;
+  }
+
+  .actorrequest {
+    margin-bottom: 15%;
+  }
+
+  .modelrequest {
+    margin-bottom: 15%;
+  }
+
+  .artists {
+    width: 90%;
+    margin-left: 14%;
+  }
+
+form {
+  width: 100%;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.submit_button {
+  font-size: 15px;
+}
+
+.personaldata {
+  flex-direction: column;
+}
+
+.customer {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.name {
+  width: 90%;
+  height: 20px;
+}
+
+.lastname {
+  width: 90%;
+  height: 20px;
+}
+
+.email {
+  width: 90%;
+  height: 20px;
+}
+
+.website {
+  width: 90%;
+  height: 20px;
+}
+
+.phonenumber {
+  width: 90%;
+  height: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 20px;
+}
+
+.street {
+  width: 90%;
+  height: 20px;
+}
+
+.uploadfile {
+  margin-left: 30%;
+}
+
+  footer {
+    width: 113%;
+    margin-top: 15%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}
+
+@media screen and (max-width: 736px) {
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 70px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 20px;
+  }
+
+  .heroimg {
+    width: 113%;
+  }
+
+  .dramaqueencontact {
+    margin-left: 12%;
+  }
+
+  .hr {
+    margin-left: 6%;
+    width: 100%;
+  }
+
+  .directors {
+    width: 90%;
+    margin-left: 15%;
+  }
+
+  .searching {
+    width: 65%;
+    margin-top: 5%;
+    flex-direction: column;
+    margin-left: 40%;
+  }
+
+  .actorrequest {
+    margin-bottom: 15%;
+  }
+
+  .modelrequest {
+    margin-bottom: 15%;
+  }
+
+  .artists {
+    width: 90%;
+    margin-left: 14%;
+  }
+
+form {
+  width: 100%;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.submit_button {
+  font-size: 15px;
+}
+
+.personaldata {
+  flex-direction: column;
+}
+
+.customer {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.name {
+  width: 90%;
+  height: 20px;
+}
+
+.lastname {
+  width: 90%;
+  height: 20px;
+}
+
+.email {
+  width: 90%;
+  height: 20px;
+}
+
+.website {
+  width: 90%;
+  height: 20px;
+}
+
+.phonenumber {
+  width: 90%;
+  height: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 20px;
+}
+
+.street {
+  width: 90%;
+  height: 20px;
+}
+
+.uploadfile {
+  margin-left: 27%;
+}
+
+  footer {
+    width: 113%;
+    margin-top: 15%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}
+
+@media screen and (max-width: 732px) {
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 70px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 20px;
+  }
+
+  .heroimg {
+    width: 113%;
+  }
+
+  .dramaqueencontact {
+    margin-left: 12%;
+  }
+
+  .hr {
+    margin-left: 6%;
+    width: 100%;
+  }
+
+  .directors {
+    width: 90%;
+    margin-left: 15%;
+  }
+
+  .searching {
+    width: 65%;
+    margin-top: 5%;
+    flex-direction: column;
+    margin-left: 35%;
+  }
+
+  .actorrequest {
+    margin-bottom: 15%;
+  }
+
+  .modelrequest {
+    margin-bottom: 15%;
+  }
+
+  .artists {
+    width: 90%;
+    margin-left: 12%;
+  }
+
+form {
+  width: 100%;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.submit_button {
+  font-size: 15px;
+}
+
+.personaldata {
+  flex-direction: column;
+}
+
+.customer {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.name {
+  width: 90%;
+  height: 20px;
+}
+
+.lastname {
+  width: 90%;
+  height: 20px;
+}
+
+.email {
+  width: 90%;
+  height: 20px;
+}
+
+.website {
+  width: 90%;
+  height: 20px;
+}
+
+.phonenumber {
+  width: 90%;
+  height: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 20px;
+}
+
+.street {
+  width: 90%;
+  height: 20px;
+}
+
+.uploadfile {
+  margin-left: 27%;
+}
+
+  footer {
+    width: 113%;
+    margin-top: 15%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 70px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 20px;
+  }
+
+  .heroimg {
+    width: 113%;
+  }
+
+  .dramaqueencontact {
+    margin-left: 12%;
+  }
+
+  .hr {
+    margin-left: 6%;
+    width: 100%;
+  }
+
+  .directors {
+    width: 90%;
+    margin-left: 15%;
+  }
+
+  .searching {
+    width: 65%;
+    margin-top: 5%;
+    flex-direction: column;
+    margin-left: 35%;
+  }
+
+  .actorrequest {
+    margin-bottom: 15%;
+  }
+
+  .modelrequest {
+    margin-bottom: 15%;
+  }
+
+  .artists {
+    width: 90%;
+    margin-left: 13%;
+  }
+
+form {
+  width: 100%;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.submit_button {
+  font-size: 15px;
+}
+
+.personaldata {
+  flex-direction: column;
+}
+
+.customer {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.name {
+  width: 90%;
+  height: 20px;
+}
+
+.lastname {
+  width: 90%;
+  height: 20px;
+}
+
+.email {
+  width: 90%;
+  height: 20px;
+}
+
+.website {
+  width: 90%;
+  height: 20px;
+}
+
+.phonenumber {
+  width: 90%;
+  height: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 20px;
+}
+
+.street {
+  width: 90%;
+  height: 20px;
+}
+
+.uploadfile {
+  margin-left: 27%;
+}
+
+  footer {
+    width: 113%;
+    margin-top: 15%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}
+
+@media screen and (max-width: 568px) {
+
+  h1 {
+    font-size: 20px;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 70px;
+
+  }
+
+  .navigation_li {
+    height: 40px;
+  }
+
+  .nav_li a {
+    font-size: 20px;
+  }
+
+  .heroimg {
+    width: 113%;
+  }
+
+  .dramaqueencontact {
+    margin-left: 12%;
+  }
+
+  .hr {
+    margin-left: 6%;
+    width: 100%;
+  }
+
+  .directors {
+    width: 90%;
+    margin-left: 15%;
+  }
+
+  .searching {
+    width: 65%;
+    margin-top: 5%;
+    flex-direction: column;
+    margin-left: 30%;
+  }
+
+  .actorrequest {
+    margin-bottom: 15%;
+  }
+
+  .modelrequest {
+    margin-bottom: 15%;
+  }
+
+  .artists {
+    width: 90%;
+    margin-left: 12%;
+  }
+
+form {
+  width: 100%;
+  margin-left: 5%;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.submit_button {
+  font-size: 15px;
+}
+
+.personaldata {
+  flex-direction: column;
+}
+
+.customer {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.name {
+  width: 90%;
+  height: 20px;
+}
+
+.lastname {
+  width: 90%;
+  height: 20px;
+}
+
+.email {
+  width: 90%;
+  height: 20px;
+}
+
+.website {
+  width: 90%;
+  height: 20px;
+}
+
+.phonenumber {
+  width: 90%;
+  height: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 20px;
+}
+
+.street {
+  width: 90%;
+  height: 20px;
+}
+
+  footer {
+    width: 113%;
+    margin-top: 15%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}
+
+/*iPhone 6Plus*/
+@media screen and (max-width: 415px) {
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  .heroimg {
+    width: 113%;
+  }
+
+  .dramaqueencontact {
+    margin-left: 12%;
+  }
+
+  .hr {
+    margin-left: 6%;
+    width: 100%;
+  }
+
+  .directors {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .searching {
+    width: 65%;
+    margin-top: 5%;
+    margin-left: 15%;
+    flex-direction: column;
+  }
+
+  .actorrequest {
+    margin-bottom: 15%;
+  }
+
+  .modelrequest {
+    margin-bottom: 15%;
+  }
+
+  .artists {
+    width: 90%;
+    margin-left: 8%;
+  }
+
+form {
+  width: 100%;
+  margin-left: 5%;
+}
+
+.personaldata {
+  flex-direction: column;
+}
+
+.customer {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.name {
+  width: 90%;
+  height: 20px;
+}
+
+.lastname {
+  width: 90%;
+  height: 20px;
+}
+
+.email {
+  width: 90%;
+  height: 20px;
+}
+
+.website {
+  width: 90%;
+  height: 20px;
+}
+
+.phonenumber {
+  width: 90%;
+  height: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 20px;
+}
+
+.street {
+  width: 90%;
+  height: 20px;
+}
+
+.uploadfile {
+  margin-left: 13%;
+}
+
+  footer {
+    width: 113%;
+    margin-top: 15%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}
+
+/*nexus 5x*/
+/*nexus 6p*/
+@media screen and (max-width: 412px) {
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  .heroimg {
+    width: 113%;
+  }
+
+  .dramaqueencontact {
+    margin-left: 16%;
+  }
+
+  .hr {
+    margin-left: 6%;
+    width: 100%;
+  }
+
+  .directors {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .searching {
+    width: 65%;
+    margin-top: 5%;
+    margin-left: 15%;
+    flex-direction: column;
+  }
+
+  .actorrequest {
+    margin-bottom: 15%;
+  }
+
+  .modelrequest {
+    margin-bottom: 15%;
+  }
+
+  .artists {
+    width: 90%;
+    margin-left: 8%;
+  }
+
+
+form {
+  width: 100%;
+  margin-left: 5%;
+}
+
+.personaldata {
+  flex-direction: column;
+}
+
+.customer {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.name {
+  width: 90%;
+  height: 20px;
+}
+
+.lastname {
+  width: 90%;
+  height: 20px;
+}
+
+.email {
+  width: 90%;
+  height: 20px;
+}
+
+.website {
+  width: 90%;
+  height: 20px;
+}
+
+.phonenumber {
+  width: 90%;
+  height: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 20px;
+}
+
+.street {
+  width: 90%;
+  height: 20px;
+}
+
+.uploadfile {
+  margin-left: 11%;
+}
+
+
+  footer {
+    width: 113%;
+    margin-top: 15%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}
+
+/*iPhone 6*/
+@media screen and (max-width: 376px) {
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  .heroimg {
+    width: 113%;
+  }
+
+  .dramaqueencontact {
+    margin-left: 16%;
+  }
+
+  .hr {
+    margin-left: 6%;
+    width: 100%;
+  }
+
+  .directors {
+    width: 90%;
+    margin-left: 20%;
+  }
+
+.directors_h3 {
+  margin-left: 5%;
+}
+
+  .searching {
+    width: 65%;
+    margin-top: 5%;
+    flex-direction: column;
+    margin-left: 7%;
+  }
+
+  .actorrequest {
+    margin-bottom: 15%;
+  }
+
+  .modelrequest {
+    margin-bottom: 15%;
+  }
+
+  .artists {
+    width: 90%;
+    margin-left: 16%;
+  }
+
+form {
+  width: 100%;
+  margin-left: -4%;
+}
+
+.personaldata {
+  flex-direction: column;
+}
+
+.customer {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.name {
+  width: 90%;
+  height: 20px;
+}
+
+.lastname {
+  width: 90%;
+  height: 20px;
+}
+
+.email {
+  width: 90%;
+  height: 20px;
+}
+
+.website {
+  width: 90%;
+  height: 20px;
+}
+
+.phonenumber {
+  width: 90%;
+  height: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 20px;
+}
+
+.street {
+  width: 90%;
+  height: 20px;
+}
+
+  footer {
+    width: 113%;
+    margin-top: 15%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}
+
+/*Galaxy s5*/
+@media screen and (max-width: 360px) {
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  .heroimg {
+    width: 113%;
+  }
+
+  .dramaqueencontact {
+    margin-left: 16%;
+  }
+
+  .hr {
+    margin-left: 6%;
+    width: 100%;
+  }
+
+  .directors {
+    width: 90%;
+    margin-left: 16%;
+  }
+
+  .searching {
+    width: 65%;
+    margin-top: 5%;
+    margin-left: 8%;
+    flex-direction: column;
+  }
+
+  .actorrequest {
+    margin-bottom: 15%;
+  }
+
+  .modelrequest {
+    margin-bottom: 15%;
+  }
+
+  .artists {
+    width: 90%;
+    margin-left: 14%;
+  }
+
+
+form {
+  width: 100%;
+
+}
+
+.personaldata {
+  flex-direction: column;
+}
+
+.customer {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.name {
+  width: 90%;
+  height: 20px;
+}
+
+.lastname {
+  width: 90%;
+  height: 20px;
+}
+
+.email {
+  width: 90%;
+  height: 20px;
+}
+
+.website {
+  width: 90%;
+  height: 20px;
+}
+
+.phonenumber {
+  width: 90%;
+  height: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 20px;
+}
+
+.street {
+  width: 90%;
+  height: 20px;
+}
+
+  .joinas {
+  width: 210px;
+  margin-left: -15%;
+  }
+
+  .joinas_answer {
+    margin-left: -15%;
+  }
+
+  .experience {
+    margin-left: -15%;
+    width: 210px;
+  }
+
+.uploadfile {
+  margin-left: 5%;
+}
+
+  footer {
+    width: 113%;
+    margin-top: 15%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}
+
+/*iPhone 5*/
+@media screen and (max-width: 320px) {
+
+  nav {
+    display: none;
+  }
+
+  .facefirst_dropdown {
+    display: inherit;
+  }
+
+  .heroimg {
+    width: 128%;
+  }
+
+  .dramaqueencontact {
+    margin-left: 23%;
+  }
+
+  .hr {
+    margin-left: 13%;
+    width: 100%;
+  }
+
+  .directors {
+    width: 90%;
+    margin-left: 30%;
+  }
+
+  .searching {
+    width: 65%;
+    margin-top: 5%;
+    flex-direction: column;
+  }
+
+  .actorrequest {
+    margin-bottom: 15%;
+  }
+
+  .modelrequest {
+    margin-bottom: 15%;
+  }
+
+  .artists {
+    width: 90%;
+    margin-left: 30%;
+  }
+
+form {
+  width: 100%;
+}
+
+.personaldata {
+  flex-direction: column;
+}
+
+.customer {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.name {
+  width: 90%;
+  height: 20px;
+}
+
+.lastname {
+  width: 90%;
+  height: 20px;
+}
+
+.email {
+  width: 90%;
+  height: 20px;
+}
+
+.website {
+  width: 90%;
+  height: 20px;
+}
+
+.phonenumber {
+  width: 90%;
+  height: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 20px;
+}
+
+.street {
+  width: 90%;
+  height: 20px;
+}
+
+  footer {
+    width: 128%;
+    margin-top: 15%;
+  }
+
+  .footercontent {
+      padding: 8%;
+  }
+  .gmbh {
+    font-size: 10px;
+
+  }
+}
